@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal details</title>
+</head>
+
+<body>
+    <main>
+        <h1>Personal details</h1>
+        <form action="./academic.html">
+            <!-- fullname -->
+            <label for="fullName">Full name: </label>
+            <input type="text" name="fullName" placeholder="Enter your name" required id="fullName">
+            <br><br>
+
+            <!-- email -->
+            <label for="email">Email:</label>
+            <input type="text" name="email" placeholder="Enter your email id" required id="email">
+            <br><br>
+
+            <!-- mobile number -->
+            <label for="phoneNumber">Mobile number: </label>
+            <input type="text" name="phoneNumber" placeholder="Mobile number" required id="phoneNumber">
+            <br><br>
+
+
+            <!-- gender -->
+            <label for="Gender">Gender:</label>
+            <select name="Gender" required id="Gender">
+                <option value="">--Select Gender--</option>
+                <option value="female">female</option>
+                <option value="male">male</option>
+                <option value="transgender">transgender</option>
+            </select>
+            <br><br>
+
+            <!-- father name -->
+            <label for="fatherName">Father name: </label>
+            <input type="text" name="fatherName" placeholder="Enter your Fathername" required id="fatherName">
+            <br><br>
+
+            <!-- mother name -->
+            <label for="motherName">Mother name</label>
+            <input type="text" name="motherName" placeholder="Enter your Mothername" required id="motherName">
+            <br><br>
+
+            <!-- category -->
+            <label for="category">Category: </label>
+            <select name="category" required id="category">
+                <option value="">Select</option>
+                <option value="General">General</option>
+                <option value="SC">SC</option>
+                <option value="ST">ST</option>
+                <option value="OBC">OBC</option>
+            </select>
+            <br><br>
+
+            <!-- pwd -->
+            <label for="pwd">PWD </label>
+
+            <input type="radio" name="pwd" value="yes" required id="pwdYes">
+            <label for="pwdYes">YES</label>
+            
+            <input type="radio" name="pwd" value="no" required id="pwdNo">
+            <label for="pwdNo">NO</label>
+
+            <br><br>
+
+            <!-- next button -->
+            <input type="submit" value="Next">
+
+        </form>
+    </main>
+</body>
+
+</html>
