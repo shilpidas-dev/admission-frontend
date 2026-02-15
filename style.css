@@ -1,0 +1,27 @@
+body{
+    text-align: center;
+    background: rgb(194, 228, 113);
+}
+h1{
+    color: rgb(39, 30, 198);
+}
+.button{
+    background-color: rgb(48, 62, 218);
+    color: rgb(232, 214, 214);
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 10px 20px;
+    width: 30%;
+    border: 1cap;
+    border-radius: 100px;
+    font-size: medium;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: rgb(12, 23, 142);
+    color: aliceblue;
+}
+
+.button1{
+    letter-spacing: 5px;
+}
